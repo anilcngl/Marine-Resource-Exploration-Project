@@ -27,7 +27,7 @@ void drawCoordinates(SDL_Renderer *renderer, int *koordinat, int numPoints, int 
         int y2 = koordinat[i + 3] * scaleFactor;
 
         // Draw the lines first
-        SDL_SetRenderDrawColor(renderer, 150, 150, 150, 255); // Purple lines
+        SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255); // White lines
         SDL_RenderDrawLine(renderer, x1, y1, x2, y2);
 
         // Fill the rectangle
@@ -39,7 +39,7 @@ void drawCoordinates(SDL_Renderer *renderer, int *koordinat, int numPoints, int 
         rect.w = abs(x2 - x1);
         rect.h = abs(y2 - y1);
 
-        SDL_SetRenderDrawColor(renderer, 150, 150, 150, 100); // Transparent
+        SDL_SetRenderDrawColor(renderer, 200, 200, 200, 100); // Transparent
         SDL_RenderFillRect(renderer, &rect);
 
         if (koordinat[i + 2] == ilkx && koordinat[i + 3] == ilky) {
