@@ -175,7 +175,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         SDL_RenderClear(renderer);
          // İlk olarak ızgarayı çiz
         drawGrid(renderer, numRows, numCols, scaleFactor);
-        SDL_SetRenderDrawColor(renderer, 100, 0, 255, 255);
+        SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
         drawCoordinates(renderer, koordinatlar, index, scaleFactor);
         SDL_RenderPresent(renderer);
     }
