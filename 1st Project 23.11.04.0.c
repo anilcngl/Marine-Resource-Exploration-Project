@@ -198,7 +198,7 @@ bas:
 
 }
 
-int main(int argc, char* argv[])
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
 
     char* alinanMetin;
