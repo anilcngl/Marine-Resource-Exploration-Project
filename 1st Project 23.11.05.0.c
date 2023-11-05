@@ -91,7 +91,7 @@ float CokgenAlaniBoya(SDL_Renderer *renderer, int *koordinat, int ilkKoordinat, 
 void IzgaraCiz(SDL_Renderer *renderer, int satir, int sutun, int boyut)
 {
     // Grid çizmek için döngüler
-    SDL_SetRenderDrawBlendMode(renderer, SDL_BLENDMODE_BLEND);  // Çizimleri saydam hale getir
+    SDL_SetRenderDrawBlendMode(renderer, SDL_BLENDMODE_BLEND);  
     SDL_SetRenderDrawColor(renderer, 150, 150, 150, 100);
 
     for (int i = 0; i <= satir; i++)
@@ -143,7 +143,7 @@ char* UrldenSatiriCek(const char* url)
 {
     CURL* curl;
     CURLcode sonuc;
-    char* data = (char*)malloc(1024); // Alýnan verinin saklanacaðý bellek alaný
+    char* data = (char*)malloc(1024); // 
 
     // libcurl başlatılıyor
     curl = curl_easy_init();
