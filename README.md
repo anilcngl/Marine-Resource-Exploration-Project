@@ -6,3 +6,6 @@ https://drive.google.com/file/d/1XGQjNOjK7a0BbZrOeZ2oiEnvqDxHkn-O/view?usp=shari
 
 # 1st Project's IEEE Report (Turkish)
 https://github.com/marcusdulekilius/ProLabs/files/13279180/1st.Project.IEEE.Report.pdf
+
+# 2nd Project's Link :
+https://github.com/marcusdulekilius/ProLabs/files/13284883/prolab_23_24_guz_son.pdf
